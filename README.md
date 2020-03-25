@@ -27,7 +27,7 @@
 ターミナル上で次のコマンドを実行してください
 ```
 set FLASK_APP=predict_file.py
-python -m flask run --withoutthreads
+python -m flask run --without-threads
 ```
 ローカルホストの127.0.0.1:5000にブラウザ上からアクセスするとページが開き、ギター画像を識別させることが出来ます。
 
