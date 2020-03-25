@@ -59,9 +59,9 @@ def upload_file():
             image = graphing.expand_to_square(filepath)
             image = image.convert('RGB')
             #画像サイズを224x224にそろえる
-            image = image.resize((image_size, image_size))
+            resize_image = image.resize((image_size, image_size))
             #画像からnumpy配列に変更し正規化を行う
-            data = np.asarray(image) / 255.0
+            data = np.asarray(resize_image) / 255.0
             #配列の次元を増やす(3次元->4次元)
             data = np.expand_dims(data, axis=0)
             #学習したモデルを使って推論をする

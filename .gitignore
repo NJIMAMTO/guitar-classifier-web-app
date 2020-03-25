@@ -1,1 +1,4 @@
 /cnn_model/
+__pycache__
+.pytest_cache
+.vscode
