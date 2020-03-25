@@ -15,13 +15,9 @@
 を分類してくれる簡易なウェブアプリです。
 
 ## Demo
-入力画面の一例
+出力ウィンドウの一例
 
-<img src="https://user-images.githubusercontent.com/41196217/75736198-e7b5de00-5d3f-11ea-9ca0-f4637a5d5588.png" width="480px">
-
-出力画面の一例
-
-<img src="https://user-images.githubusercontent.com/41196217/75736263-12079b80-5d40-11ea-88f6-5f67553e0556.png" width="480px">
+<img src="https://user-images.githubusercontent.com/41196217/77495371-b5555780-6e8b-11ea-9c0c-4dd388339a91.png" width="480px">
 
 ## Usage
 ターミナル上で次のコマンドを実行してください
